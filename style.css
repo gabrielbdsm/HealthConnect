@@ -1,0 +1,94 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-image: url('BackgroundFull.png');
+            background-size: cover; /* Cobrir toda a área do body */
+            background-position: center;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .hero {
+            background-color: #ccc;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            color: #333;
+            font-size: 3em;
+        }
+        .product-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .product-details {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .product-details h2 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .product-details p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .product-details ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 0;
+        }
+        .product-details ul li {
+            margin-bottom: 10px;
+        }
+        .product-details ul li ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-image: url('BackgroundFull.png');
+            background-size: cover; /* Cobrir toda a área do body */
+            background-position: center;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .cta a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .cta button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-image: url('BackgroundFull.png');
+            background-size: cover; 
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        } 
